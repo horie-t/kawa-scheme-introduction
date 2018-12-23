@@ -8,7 +8,7 @@
 1. Kawaの特徴
 2. [インストール・セットアップ](./install-setup)
 3. [Schemeのコードを書こう](./write-scheme)
-4. [Kawa独自の機能](./kawa-orginal-func)
+4. [Kawa独自の機能](./kawa-original-func)
 5. [Javaコードとの連携](./java-object)
 6. [GUI(JavaFX)](./gui-javafx)
 7. [XML/HTMLの取り扱い](./xml)
@@ -24,3 +24,4 @@
 17. Hadoopとの連携
 18. C言語のコードとの連携
 19. iOS上で動かす
+
