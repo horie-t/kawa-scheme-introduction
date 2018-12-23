@@ -14,9 +14,9 @@
 7. [XML/HTMLの取り扱い](./xml)
 8. [Webサーバ(Java Servlet)として動かす](./servlet)
 9. [Databaseとの接続](./database)
-10. [Webブラウザ側のScheme(BiwaScheme)との連携](biwa-scheme)
-11. [Android上で動かす](android)
-12. OpenGL(Android編)
+10. [Webブラウザ側のScheme(BiwaScheme)との連携](./biwa-scheme)
+11. [Android上で動かす](./android)
+12. [OpenGL(Android編)](./opengl-android)
 13. Google Daydream
 14. OpenCV(Android編)
 15. マルチスレッド
