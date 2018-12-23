@@ -31,7 +31,7 @@ Kawaは、Java上で動作しているので、Javaの最近のGUIライブラ�
 $ java -cp /usr/local/lib/kawa.jar kawa.repl HelloButton.scm &
 ```
 
-![Hello Button](./images/HelloButton.png "Hello Button")
+![Hello Button](./assets/images/HelloButton.png "Hello Button")
 
 
 JavaのCanvasクラスを以下のように使用すると、線を引くこともできます。
@@ -53,7 +53,7 @@ JavaのCanvasクラスを以下のように使用すると、線を引くこと�
    canvas))
 ```
 
-![Hello Canvas](./images/HelloCanvas.png "Hello Canvas")
+![Hello Canvas](./assets/images/HelloCanvas.png "Hello Canvas")
 
 
 SICPの図形言語のwaveも以下のように書ける。
@@ -227,4 +227,4 @@ SICPの図形言語のwaveも以下のように書ける。
    canvas))
 ```
 
-![Picture wave](./images/Picture-wave.png "Picture wave")
+![Picture wave](./assets/images/Picture-wave.png "Picture wave")
