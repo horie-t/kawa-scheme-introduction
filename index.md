@@ -15,13 +15,12 @@
 8. [Webサーバ(Java Servlet)として動かす](./servlet)
 9. [Databaseとの接続](./database)
 10. [Webブラウザ側のScheme(BiwaScheme)との連携](biwa-scheme)
-11. [Android上で動かす(Ant編)]
-12. Android上で動かす(Gradle Plugin編)
-13. OpenGL(Android編)
-14. Google Daydream
-15. OpenCV(Android編)
-16. マルチスレッド
-17. Hadoopとの連携
-18. C言語のコードとの連携
-19. iOS上で動かす
+11. [Android上で動かす](android)
+12. OpenGL(Android編)
+13. Google Daydream
+14. OpenCV(Android編)
+15. マルチスレッド
+16. Hadoopとの連携
+17. C言語のコードとの連携
+18. iOS上で動かす
 
