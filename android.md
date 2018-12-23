@@ -77,10 +77,10 @@ lib/kawa.jar にAndroid用のjarファイルが作成されます。
 3. [Application Name]に「HelloStudio」、[Company Domain]に「example.co.jp」を入力し、[Next]をクリックします。
 4. [Phone and Tablet]にチェックが入っている事を確認し、[Minimum SDK]を選択し、[Next]をクリックします。
 5. [Add No Activity]を選択し、[Finish]をクリックします。
-6. 左上のナビゲーション・バーで、[HelloStudio] - [app] - [libs] と選択して、アプリのjarライブラリディレクトリを開きます。
+6. 左上のナビゲーション・バーで、[HelloStudio] - [app] - [libs] と選択して、アプリのjarライブラリディレクトリを開きます。  
 ![HelloKawaLibs](./assets/images/HelloKawaLibs.png "HelloKawaLibs")
 7. 「Kawaのコンパイル」でコンパイルした、[Kawa.jar]ファイルをlibsディレクトリにコピーします。
-8. [app]の方の[build.gradle]ファイル(AndroidStudioのプロジェクトの直下のファイルではありません)を以下のように編集し、Kawaのプラグインの設定を追加します。
+8. [app]の方の[build.gradle]ファイル(AndroidStudioのプロジェクトの直下のファイルではありません)を以下のように編集し、Kawaのプラグインの設定を追加します。  
 ```gradle
 buildscript {
     project.ext {
@@ -177,7 +177,7 @@ android {
 }
 ```
 
-9. "app/src/main"ディレクトリの配下に"scm/jp/co/example/hellostudio/hellostudio.scm"ファイルを作成します。
+9. "app/src/main"ディレクトリの配下に"scm/jp/co/example/hellostudio/hellostudio.scm"ファイルを作成します。  
 ![HelloKawaScm](./assets/images/HelloKawaScm.png "HelloKawaScm")
 10. hellostudio.scmファイルを以下のように編集します。  
 ```scheme
@@ -200,7 +200,7 @@ android {
 	   (t:setText "Hello, AndroidStuido World!")
 	   (act:setContentView t)))))))</pre>
 ```
-11. AndroidManifest.xmlファイルを以下のように編集します。
+11. AndroidManifest.xmlファイルを以下のように編集します。  
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jp.co.example.hellostudio">
